@@ -1,0 +1,12 @@
+
+
+.icon-hover-glow {
+    color: none;
+}
+
+.icon-hover-glow:hover {
+
+    text-shadow:-3px 0 #ff0000,
+                3px 0 #00aaff,
+                0 2PX #eeff00;
+}  
