@@ -4,8 +4,23 @@
     color: none;
 }
 
-.icon-hover-glow:hover {
 
+.icon-hover:hover .icon-hover-glow{
+    animation: wiggle 0.2s 1;
+    text-shadow:-3px 0 #ff0000,
+                3px 0 #00aaff,
+                0 2PX #eeff00;
+}  
+
+.icon-hover:hover .icon-hover-glow{
+    animation: wiggle 0.2s 1;
+    text-shadow:-3px 0 #ff0000,
+                3px 0 #00aaff,
+                0 2PX #eeff00;
+}  
+
+.icon-glow:hover{
+    animation: 0.2s 1;
     text-shadow:-3px 0 #ff0000,
                 3px 0 #00aaff,
                 0 2PX #eeff00;

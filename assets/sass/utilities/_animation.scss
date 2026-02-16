@@ -6,14 +6,28 @@
 @keyframes wiggle {
     0% { transform: skewX(24deg); } 
     10% { transform: skewX(-8deg); }
-    20% { transform: skewX(55deg); }
-    30% { transform: skewX(-90deg); }
+    20% { transform: skewX(33deg); }
+    30% { transform: skewX(-70deg); }
     40% { transform: skewX(29deg); }
-    50% { transform: skewX(-90deg); }
+    50% { transform: skewX(-70deg); }
     60% { transform: skewX(3deg); }
     70% { transform: skewX(-2deg); }
     80% { transform: skewX(1deg); }
     90% { transform: skewX(10deg); }
+    100% { transform: skewX(0deg); }
+}
+
+@keyframes miniWiggle {
+    0% { transform: skewX(14deg); } 
+    10% { transform: skewX(-4deg); }
+    20% { transform: skewX(15deg); }
+    30% { transform: skewX(-25deg); }
+    40% { transform: skewX(13deg); }
+    50% { transform: skewX(-25deg); }
+    60% { transform: skewX(1deg); }
+    70% { transform: skewX(-1deg); }
+    80% { transform: skewX(0deg); }
+    90% { transform: skewX(5deg); }
     100% { transform: skewX(0deg); }
 }
 

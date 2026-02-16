@@ -2,7 +2,7 @@
     position: relative;
     width: 84%;
     height: 90%;
-    background-color: #f2f2f2;
+    background-color: #162626;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -14,11 +14,6 @@
     margin: 0 8%;
 }
 
-.card svg {
-    width: 100vh;
-    fill: #333;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
 
 .card:hover {
     
@@ -34,7 +29,7 @@
     height: 100%;
     padding: 100px;
     box-sizing: border-box;
-    background-color: #f2f2f2;
+    background-color: #162626;
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -47,7 +42,7 @@
 .card__title {
     margin: 0;
     font-size: 3rem;
-    color: #333;
+    color: #fff;
     font-weight: 700;
 }
 
@@ -56,8 +51,13 @@
 }
 
 .card__description {
-    margin: 10px 0 0;
+    margin: 10px 0 50px 0;
     font-size: 1rem;
-    color: #777;
+    color: #cacaca;
     line-height: 1.4;
+}
+
+.card__content .glow-btn{
+    float: right;
+    margin-left: auto;
 }
